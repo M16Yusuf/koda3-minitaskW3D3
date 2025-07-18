@@ -1,0 +1,49 @@
+/* universal css */
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9F7F7;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav div {
+    /* styling div */
+    background-color: #3F72AF;
+    border: 1px solid #112D4E;
+    color: #DBE2EF;
+    display: block;
+    width: 100px;
+    height: 40px;
+
+    /* horizontaly center */
+    text-align: center;
+    /* verticaly center */
+    align-content: center;
+}
+
+
+/* large breakpoint 1024px */
+/* this section will apply if under 1024 */
+@media screen and (max-width:1024px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* medium breakpoint 768px */
+/* this section will apply if under 768px */
+@media screen and (max-width: 768px) {
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+}

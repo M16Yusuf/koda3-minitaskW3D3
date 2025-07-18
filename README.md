@@ -21,6 +21,10 @@
 
 </details>
 
-### Result task nomor 1 would be like this
+### Result task number 1 would be like this
 
 ![demo_task1](./demo/task1-demo.gif)
+
+### Result task number 2 would be like this
+
+![demo_task2](./demo/task2-demo.gif)
