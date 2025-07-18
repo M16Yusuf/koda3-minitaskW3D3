@@ -1,0 +1,30 @@
+body {
+    background-color: #1B3C53;
+}
+
+main{
+    width: 410px;
+    border: 10px solid black;
+    padding: 5px;
+    justify-items: center;
+}
+
+textarea{
+    width: 400px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    width: 400px;
+}   
+
+section button{
+    background-color: #456882;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+section button:nth-child(1){
+    grid-column: 1 / span 2;
+}

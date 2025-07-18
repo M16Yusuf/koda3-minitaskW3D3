@@ -28,3 +28,8 @@
 ### Result task number 2 would be like this
 
 ![demo_task2](./demo/task2-demo.gif)
+
+### Result task number 3 would be like this
+
+![demo_task3](./demo/task3-demo.png)
+
