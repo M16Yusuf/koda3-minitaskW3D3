@@ -1,3 +1,4 @@
+#### Minitask week 3 day 3 bootcamp Koda Batch 3
 
 <details>
 <summary> Details objective task (Click to expands!) </summary>
@@ -17,3 +18,6 @@ b. Jika ukuran layar dibawah breakpoint large, maka bautkan navigator menjadi me
 
 </details>
 
+#### Result task nomor 1 would be like this
+
+![demo_task1](./demo/task1-demo.gif)

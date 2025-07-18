@@ -1,0 +1,77 @@
+body{
+    background-color: #333446;
+    color: #ffff;
+}
+
+/* universal css */
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* make nav fixed on top left corner */
+nav {
+    position: fixed;
+    top: 5px;
+    left: 5px;        
+}
+
+/* hide dot from li element */
+li {
+    list-style-type: none;
+}
+
+li a {
+    /* customize display of menu */
+    background-color: aquamarine;
+    display: block;
+    width: 60px;
+    height: 40px;
+    border: 2px solid black;
+
+    /* horizontaly center */
+    text-align: center;
+    /* verticaly center */
+    align-content: center;
+}
+
+
+/* medium breakpoint 768px */
+/* this section will apply if under 768px */
+@media screen and (max-width: 768px) {
+    li {
+        float: left;
+    }
+    li a {
+        /* customize display of menu */
+        display: block;
+        background-color: #B8CFCE;
+        border: 2px solid black;
+        width: 60px;
+        height: 40px;
+
+        /* horizontaly center */
+        text-align: center;
+        /* verticaly center */
+        align-content: center;
+    }
+}
+
+
+/* large breakpoint 1024px */
+/* this section will apply if under 1024 */
+@media screen and (max-width:1024px) {
+    li a {
+        /* customize display of menu */
+        display: block;
+        background-color: #7F8CAA;
+        border: 2px solid black;
+        height: 40px;
+
+        /* horizontaly center */
+        text-align: center;
+        /* verticaly center */
+        align-content: center;
+    }
+}
